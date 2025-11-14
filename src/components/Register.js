@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'https://real-estate-api-tr3v.onrender.com/api';
+const API_URL = 'https://real-estate-api-xpqq.onrender.com/api';
 
 export default function Register() {
   const [form, setForm] = useState({ name: '', email: '', password: '', role: 'user' });

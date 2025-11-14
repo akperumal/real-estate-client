@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'https://real-estate-api-tr3v.onrender.com/api';
+const API_URL = 'https://real-estate-api-xpqq.onrender.com/api';
 
 export default function PlotList() {
   const [plots, setPlots] = useState([]);
@@ -64,7 +64,7 @@ export default function PlotList() {
         {plots.map(plot => (
           <div key={plot.id} className="plot-card">
             {plot.images && plot.images[0] ? (
-              <img src={`https://real-estate-api-tr3v.onrender.com${plot.images[0]}`} alt={plot.title} className="plot-img" />
+              <img src={`https://real-estate-api-xpqq.onrender.com${plot.images[0]}`} alt={plot.title} className="plot-img" />
             ) : (
               <div style={{height: '200px', background: '#eee', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 No Image
